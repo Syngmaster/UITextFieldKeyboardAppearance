@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE0DFDA1F47540C00AAB030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0DFD91F47540C00AAB030 /* main.m */; };
+		DCE0DFDD1F47540C00AAB030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0DFDC1F47540C00AAB030 /* AppDelegate.m */; };
+		DCE0DFE01F47540C00AAB030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE0DFDF1F47540C00AAB030 /* ViewController.m */; };
+		DCE0DFE31F47540C00AAB030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0DFE11F47540C00AAB030 /* Main.storyboard */; };
+		DCE0DFE51F47540C00AAB030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE0DFE41F47540C00AAB030 /* Assets.xcassets */; };
+		DCE0DFE81F47540C00AAB030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE0DFE61F47540C00AAB030 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCE0DFD51F47540C00AAB030 /* UITextFieldKeyboardAppearance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextFieldKeyboardAppearance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE0DFD91F47540C00AAB030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE0DFDB1F47540C00AAB030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE0DFDC1F47540C00AAB030 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE0DFDE1F47540C00AAB030 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCE0DFDF1F47540C00AAB030 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCE0DFE21F47540C00AAB030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE0DFE41F47540C00AAB030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE0DFE71F47540C00AAB030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE0DFE91F47540C00AAB030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE0DFD21F47540C00AAB030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE0DFCC1F47540C00AAB030 = {
+			isa = PBXGroup;
+			children = (
+				DCE0DFD71F47540C00AAB030 /* UITextFieldKeyboardAppearance */,
+				DCE0DFD61F47540C00AAB030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE0DFD61F47540C00AAB030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0DFD51F47540C00AAB030 /* UITextFieldKeyboardAppearance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE0DFD71F47540C00AAB030 /* UITextFieldKeyboardAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0DFDB1F47540C00AAB030 /* AppDelegate.h */,
+				DCE0DFDC1F47540C00AAB030 /* AppDelegate.m */,
+				DCE0DFDE1F47540C00AAB030 /* ViewController.h */,
+				DCE0DFDF1F47540C00AAB030 /* ViewController.m */,
+				DCE0DFE11F47540C00AAB030 /* Main.storyboard */,
+				DCE0DFE41F47540C00AAB030 /* Assets.xcassets */,
+				DCE0DFE61F47540C00AAB030 /* LaunchScreen.storyboard */,
+				DCE0DFE91F47540C00AAB030 /* Info.plist */,
+				DCE0DFD81F47540C00AAB030 /* Supporting Files */,
+			);
+			path = UITextFieldKeyboardAppearance;
+			sourceTree = "<group>";
+		};
+		DCE0DFD81F47540C00AAB030 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0DFD91F47540C00AAB030 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE0DFD41F47540C00AAB030 /* UITextFieldKeyboardAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE0DFEC1F47540C00AAB030 /* Build configuration list for PBXNativeTarget "UITextFieldKeyboardAppearance" */;
+			buildPhases = (
+				DCE0DFD11F47540C00AAB030 /* Sources */,
+				DCE0DFD21F47540C00AAB030 /* Frameworks */,
+				DCE0DFD31F47540C00AAB030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextFieldKeyboardAppearance;
+			productName = UITextFieldKeyboardAppearance;
+			productReference = DCE0DFD51F47540C00AAB030 /* UITextFieldKeyboardAppearance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE0DFCD1F47540C00AAB030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Syngmaster;
+				TargetAttributes = {
+					DCE0DFD41F47540C00AAB030 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4PMQKT6K8N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCE0DFD01F47540C00AAB030 /* Build configuration list for PBXProject "UITextFieldKeyboardAppearance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE0DFCC1F47540C00AAB030;
+			productRefGroup = DCE0DFD61F47540C00AAB030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE0DFD41F47540C00AAB030 /* UITextFieldKeyboardAppearance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE0DFD31F47540C00AAB030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE0DFE81F47540C00AAB030 /* LaunchScreen.storyboard in Resources */,
+				DCE0DFE51F47540C00AAB030 /* Assets.xcassets in Resources */,
+				DCE0DFE31F47540C00AAB030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE0DFD11F47540C00AAB030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE0DFE01F47540C00AAB030 /* ViewController.m in Sources */,
+				DCE0DFDD1F47540C00AAB030 /* AppDelegate.m in Sources */,
+				DCE0DFDA1F47540C00AAB030 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCE0DFE11F47540C00AAB030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE0DFE21F47540C00AAB030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCE0DFE61F47540C00AAB030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE0DFE71F47540C00AAB030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE0DFEA1F47540C00AAB030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE0DFEB1F47540C00AAB030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE0DFED1F47540C00AAB030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PMQKT6K8N;
+				INFOPLIST_FILE = UITextFieldKeyboardAppearance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.UITextFieldKeyboardAppearance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE0DFEE1F47540C00AAB030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4PMQKT6K8N;
+				INFOPLIST_FILE = UITextFieldKeyboardAppearance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.UITextFieldKeyboardAppearance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE0DFD01F47540C00AAB030 /* Build configuration list for PBXProject "UITextFieldKeyboardAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE0DFEA1F47540C00AAB030 /* Debug */,
+				DCE0DFEB1F47540C00AAB030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE0DFEC1F47540C00AAB030 /* Build configuration list for PBXNativeTarget "UITextFieldKeyboardAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE0DFED1F47540C00AAB030 /* Debug */,
+				DCE0DFEE1F47540C00AAB030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE0DFCD1F47540C00AAB030 /* Project object */;
+}
