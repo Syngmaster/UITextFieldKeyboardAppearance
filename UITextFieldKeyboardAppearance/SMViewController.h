@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMViewController.h
 //  UITextFieldKeyboardAppearance
 //
 //  Created by Syngmaster on 18/08/2017.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SMViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *textFields;
 
 @end
 

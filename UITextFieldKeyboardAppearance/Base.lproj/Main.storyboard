@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SMViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,60 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r3d-Vq-fPH">
+                                <rect key="frame" x="88" y="318" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8Wh-bd-xzm"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FQc-id-wWd"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YQ8-on-dLe">
+                                <rect key="frame" x="88" y="518" width="200" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Md7-5L-spf"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="grM-zu-FXb">
+                                <rect key="frame" x="87" y="423" width="200" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="gMo-0n-vMM"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="grM-zu-FXb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="98D-8C-MRf"/>
+                            <constraint firstItem="grM-zu-FXb" firstAttribute="top" secondItem="r3d-Vq-fPH" secondAttribute="bottom" constant="75" id="DzN-lI-OCd"/>
+                            <constraint firstItem="r3d-Vq-fPH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fHm-ob-SZ7"/>
+                            <constraint firstItem="YQ8-on-dLe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ges-1P-Gcj"/>
+                            <constraint firstItem="grM-zu-FXb" firstAttribute="width" secondItem="r3d-Vq-fPH" secondAttribute="width" id="oZh-m4-pd1"/>
+                            <constraint firstItem="grM-zu-FXb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="txl-Nd-Ygz"/>
+                            <constraint firstItem="YQ8-on-dLe" firstAttribute="top" secondItem="grM-zu-FXb" secondAttribute="bottom" constant="65" id="udC-gZ-88X"/>
+                            <constraint firstItem="r3d-Vq-fPH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vSe-Sy-Tw4"/>
+                            <constraint firstItem="YQ8-on-dLe" firstAttribute="width" secondItem="grM-zu-FXb" secondAttribute="width" id="vdR-W0-6wZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="textFields" destination="r3d-Vq-fPH" id="qsD-tl-UTo"/>
+                        <outletCollection property="textFields" destination="grM-zu-FXb" id="PZx-Gj-geC"/>
+                        <outletCollection property="textFields" destination="YQ8-on-dLe" id="kIL-ci-mQ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>
